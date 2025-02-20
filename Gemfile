@@ -6,3 +6,6 @@ gem "jekyll", "~> 4.4.1" # installed by `gem jekyll`
 gem "just-the-docs"        # always download the latest release
 gem "sass-embedded"
 gem "ffi"
+
+# Add GitHub Pages gem to ensure all required dependencies are installed
+gem "github-pages", group: :jekyll_plugins
