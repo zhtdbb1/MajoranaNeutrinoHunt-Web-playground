@@ -38,13 +38,14 @@ jobs:
           bundler-cache: false  # Disable cache to force a fresh install
 
       - name: Remove any existing gems
-        run: rm -rf vendor/bundle
+        run: rm -rf vendor/bundle .bundle
 
       - name: Install dependencies
         run: |
           gem install bundler
           bundle install --jobs 4 --retry 3
           bundle exec jekyll --version  # Verify Jekyll is installed
+          bundle info just-the-docs     # Verify Just-the-Docs is installed
 
       - name: Setup Pages
         id: pages
@@ -58,6 +59,7 @@ jobs:
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+
 
   # Deployment job
   deploy:
