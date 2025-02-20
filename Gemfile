@@ -1,11 +1,15 @@
 source 'https://rubygems.org'
 
-gem "jekyll", "~> 4.4.1" # installed by `gem jekyll`
-#gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
-
-gem "just-the-docs"        # always download the latest release
+gem "jekyll", "~> 4.4.1"
+gem "just-the-docs"
 gem "sass-embedded"
 gem "ffi"
+gem "webrick"  # Needed for local Jekyll development
+gem "jekyll-sass-converter", "~> 3.0"
+gem "kramdown", ">= 2.3.1"
+gem "liquid", "~> 4.0"
+gem "rouge"
+gem "jekyll-seo-tag"
+gem "terminal-table"
+gem "rexml"
 
-# Add GitHub Pages gem to ensure all required dependencies are installed
-gem "github-pages", group: :jekyll_plugins

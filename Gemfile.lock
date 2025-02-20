@@ -100,8 +100,16 @@ PLATFORMS
 DEPENDENCIES
   ffi
   jekyll (~> 4.4.1)
+  jekyll-sass-converter (~> 3.0)
+  jekyll-seo-tag
   just-the-docs
+  kramdown (>= 2.3.1)
+  liquid (~> 4.0)
+  rexml
+  rouge
   sass-embedded
+  terminal-table
+  webrick
 
 BUNDLED WITH
    2.5.9
