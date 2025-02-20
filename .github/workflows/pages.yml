@@ -35,11 +35,15 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
-          bundler-cache: true
+          bundler-cache: false  # Disable cache to force a fresh install
+
+      - name: Remove any existing gems
+        run: rm -rf vendor/bundle
 
       - name: Install dependencies
         run: |
-          bundle install
+          gem install bundler
+          bundle install --jobs 4 --retry 3
           bundle exec jekyll --version  # Verify Jekyll is installed
 
       - name: Setup Pages
