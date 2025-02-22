@@ -9,5 +9,28 @@ aux_links:
 
 # Add custom CSS file
 just_the_docs:
-  custom_css:
-    - "assets/css/custom.css"
+
+  # Enable Just the Docs built-in responsive menu
+  nav_enabled: true
+  search_enabled: true
+
+  
+
+nav_order: true
+
+# Sidebar structure
+nav:
+
+  - title: "Data"
+    url: /data
+    children:
+      - title: "Data Preprocessing"
+        url: /data_preprocessing
+      - title: "Parameters"
+        url: /parameters
+
+  - title: "Models"
+    url: /models
+
+  - title: "About Us"
+    url: /about_us
