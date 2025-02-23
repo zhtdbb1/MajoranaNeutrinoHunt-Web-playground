@@ -1,6 +1,6 @@
 ---
 title: "Regression Group"
-parent: "Models"
+parent: "Methods"
 layout: default
 nav_order: 2
 ---

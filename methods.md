@@ -1,5 +1,5 @@
 ---
-title: "Models"
+title: "Methods"
 layout: default
 nav_order: 3
 ---
