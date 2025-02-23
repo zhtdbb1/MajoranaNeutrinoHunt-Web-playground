@@ -1,6 +1,6 @@
 ---
 title: "Data Preprocessing"
-parent: "Methods"
+parent: "Data"
 layout: default
 nav_order: 2
 ---
