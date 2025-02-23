@@ -7,4 +7,25 @@ nav_order: 2
 
 # Parameters
 
-## Placeholder
+## Drift Time
+
+## Late Charge (lq80)
+
+## Late Charge Slope (Area Growth Rate)
+
+## Second derivative Inflection Points 
+
+## Rising Edge Slope
+
+## Rising Edge Asymmetry 
+
+## Current Amplitude
+
+## Energy Peak 
+
+## Tail Slope 
+
+## Delayed Charge Recovery 
+
+## Fourier Transform and Low Frequency Power Ratio 
+
