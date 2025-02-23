@@ -30,7 +30,7 @@ nav:
         url: /parameters
 
   - title: "Methods"
-    url: /models
+    url: /methods
     children:
       - title: "Classification Group"
         url: /classification
