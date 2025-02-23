@@ -37,5 +37,8 @@ nav:
       - title: "Regression Group"
         url: /regression
 
+  - title: "Conclusion"
+    url: /conclusion
+
   - title: "About Us"
     url: /about_us

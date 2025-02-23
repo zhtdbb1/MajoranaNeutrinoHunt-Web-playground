@@ -1,8 +1,7 @@
 ---
 title: "Conclusion"
 layout: default
-nav_order: 2
-has_children: true
+nav_order: 4
 ---
 # Final Energy Spectrum
 
