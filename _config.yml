@@ -29,8 +29,13 @@ nav:
       - title: "Parameters"
         url: /parameters
 
-  - title: "Models"
+  - title: "Methods"
     url: /models
+    children:
+      - title: "Classification Group"
+        url: /classification
+      - title: "Regression Group"
+        url: /regression
 
   - title: "About Us"
     url: /about_us
