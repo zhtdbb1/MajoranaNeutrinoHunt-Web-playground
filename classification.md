@@ -7,4 +7,10 @@ nav_order: 2
 
 # Classification Group
 
-## Placeholder
+## Catboost
+
+## XGBoost
+
+## LightGBM
+
+## Random Forest
