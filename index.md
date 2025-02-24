@@ -14,7 +14,7 @@ Advancing energy regression in neutrino research through machine learning-driven
 [Our report(TBC)][report]{: .btn .btn-primaruy .fs-5 .mb-4 .mb-md-0 }
 
 {: .note }
-> The purple button above links toour project repo, click [here] or the link at the top right corner of this page to see the repo for this website.
+> The purple button above links to our project repo, click [here] or the link at the top right corner of this page to see the repo for this website.
 
 ---
 
