@@ -13,6 +13,9 @@ Advancing energy regression in neutrino research through machine learning-driven
 [View it on GitHub][Our repo]{: .btn .btn-purple .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Our report(TBC)][report]{: .btn .btn-primaruy .fs-5 .mb-4 .mb-md-0 }
 
+{: .note }
+> The purple button above links toour project repo, click [here] or the link at the top right corner of this page to see the repo for this website.
+
 ---
 
 Our Applied Data Science project in NPML(Neutrino Physics Data Science) applies machine learning to analyze time-series data from the Majorana Demonstrator to detect energies in neutrinoless double beta decay by extracting key features and building ML/DL models.
