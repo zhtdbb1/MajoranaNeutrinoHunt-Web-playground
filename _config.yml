@@ -2,7 +2,9 @@ title: NPML
 description: A website for our NPML project.
 theme: just-the-docs
 
+baseurl: "/FindingGhostParticles-Website"
 url: https://github.com/zhtdbb1/FindingGhostParticles-Website
+
 
 aux_links:
   Website Repository: https://github.com/zhtdbb1/FindingGhostParticles-Website
